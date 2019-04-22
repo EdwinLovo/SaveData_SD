@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/fileTitle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_edit_text_height"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/edit_text_rounded"
+        android:hint="File name"
+        android:inputType="textEmailAddress"
+        android:padding="@dimen/login_edit_text_space"
+        android:textSize="@dimen/login_text_size"
+        android:textColorHint="@color/colorPrimaryText"
+        android:textColor="@color/colorPrimaryText"/>
+
+    <EditText
+        android:id="@+id/fileContent"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/edit_text_rounded"
+        android:hint="File content"
+        android:inputType="textEmailAddress"
+        android:padding="@dimen/login_edit_text_space"
+        android:textSize="@dimen/login_text_size"
+        android:gravity="top"
+        android:textColorHint="@color/colorPrimaryText"
+        android:textColor="@color/colorPrimaryText"/>
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_button_xl_height"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="32dp"
+        android:background="@drawable/button_ripple_save"
+        android:text="Save Info"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="@dimen/login_text_xl_size" />
+
+    <Button
+        android:id="@+id/button_see"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_button_xl_height"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="32dp"
+        android:background="@drawable/button_ripple_file_info"
+        android:text="See File Info"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="@dimen/login_text_xl_size" />
+
+
+
+</LinearLayout>
